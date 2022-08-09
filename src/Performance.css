@@ -1,0 +1,74 @@
+.main-div {
+    background-color: lightgray;
+    height: 9rem;
+}
+
+.second-div {
+    position: relative;
+    top: 3rem;
+    width: 100vw;
+    text-align: center;
+    color: rgba(90, 88, 88, 0.945);
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.second-div-2 {
+    position: relative;
+    top: 6rem;
+    width: 100vw;
+    text-align: center;
+    color: rgba(90, 88, 88, 0.945);
+    font-weight: 400;
+    font-family: "Rubik", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.MuiDialog-paperWidthSm {
+    width: 60% !important;
+}
+
+.fields {
+    display: inline-flex;
+    width: 98%;
+    white-space: nowrap;
+    margin: 1rem;
+}
+
+.card {
+    margin: 1rem;
+}
+
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+#students {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+}
+
+#students td,
+#students th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#students tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#students tr:hover {
+    background-color: #ddd;
+}
+
+#students th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #357EC7;
+    color: white;
+}
